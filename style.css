@@ -137,4 +137,13 @@ align-items: center;
 
 
 
+.songList ul li
+{
+
+
+    list-style-type: none;
+}
+
+
+
 
