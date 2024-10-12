@@ -1,0 +1,140 @@
+body{
+
+    background-color: white;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+nav{
+
+
+}
+
+
+nav ul {
+
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 75px;
+    color: white;
+    align-items: center ;
+}
+
+nav ul li{
+
+    /* margin-left: 40px; */
+    padding: 0px 12px;
+    
+}
+
+nav ul li a{
+color: white;
+    text-decoration: none;
+    
+
+}
+.brand img{
+
+    width: 60px;
+    /* margin-right: 362px; */
+    padding: 0 6px;
+    padding-left: 2px;
+   
+}
+
+.brand{
+
+margin-left: 10px;
+margin-top:6px;
+display: flex;
+align-items: center;
+font-weight: bolder;
+font-size: large;
+padding: 0 8px;
+
+
+}
+
+.container{
+min-height: 79vh;
+background-color: black;
+color: white;
+font-family: "Varela", sans-serif ;
+display: flex;
+margin: 24px auto;
+width: 70%;
+border-radius: 12px;
+padding: 0 12px;
+background-image: url('/images/bg.logo.jpg');
+background-size: cover;
+
+}
+
+.bottom{
+
+background-color: black;
+height: 100px;
+position: sticky;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    
+
+
+}
+
+#myPrograssBar {
+width: 80vw;
+text-align: center;
+
+
+}
+
+.icons{
+
+    margin: 12px 0;
+}
+
+.icons i {
+
+    cursor: pointer;
+}
+
+
+.songitem{
+display: flex;
+background-color: white;
+width: 80%;
+color: black;
+height: 50px;
+margin: 12px 0;
+border-radius: 40px;
+text-align: center;
+display: flex;
+align-items: center;
+
+
+}
+.songitem img{
+
+    width: 40px;
+    border-radius: 1000px;
+    margin: 7px 4px;
+    border-top: 1000px;
+    height: 40px;
+    /* margin-bottom: 18px; */
+}
+
+
+
+
