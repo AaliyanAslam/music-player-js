@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plat it </title>
+    <title>Play it </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
 
 </head>
 
@@ -19,60 +20,60 @@
      <a href=""><img src="images/playit.logo.PNG" alt=""></a>
 
         <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a href="pages/news.html">News</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="pages/about.html">About</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
 
-    <div class="container">
+    <div class="container" style="background-image:url('images/bg.logo.jpg');">
 
 
         <div class="songList">
             <h1>Best Of NCS - No CopyRight Songs </h1>
 
-            <div>
+            <div class="songItemContainer">
                 <ul>
                     <li>
                         <div class="songitem">
 
                             <img src="https://i.ytimg.com/vi/BTuBo1pJgsI/maxresdefault.jpg" alt="1">
-                            <span>Beliver <span>3:20</span>
-                                <i class="fa-solid fa- fa-play"></i>
+                            <span >Beliver </span>
+                                 <span  class="timeStamp">3:20<span><i class="fa-solid fa- fa-play"></i>
 
-                            </span>
+                            </span></span>
                         </div>
                     </li>
                     <li>
                         <div class="songitem">
 
                             <img src="images/fein.PNG" alt="1">
-                            <span>Fein <span>3:20</span>
-                                <i class="fa-solid fa- fa-play"></i>
+                            <span>Fein </span>
+                                 <span  class="timeStamp">3:20<span><i class="fa-solid fa- fa-play"></i>
 
-                            </span>
+                            </span></span>
                         </div>
                     </li>
                     <li>
                         <div class="songitem">
 
                             <img src="images/mil.PNG" alt="1">
-                            <span>Baby <span>3:20</span>
-                                <i class="fa-solid fa- fa-play"></i>
+                            <span>Millionare </span>
+                                 <span  class="timeStamp">3:20<span><i class="fa-solid fa- fa-play"></i>
 
-                            </span>
+                            </span></span>
                         </div>
                     </li>
                     <li>
                         <div class="songitem">
 
                             <img src="images/aur.PNG" alt="1">
-                            <span>Ignite <span>3:20</span>
-                                <i class="fa-solid fa- fa-play"></i>
+                            <span>Tu Hai Kahan </span>
+                            <span  class="timeStamp">3:20<span><i class="fa-solid fa- fa-play"></i>
 
-                            </span>
+                       </span></span>
                         </div>
                     </li>
                 </ul>
@@ -95,11 +96,27 @@
             <!-- font awsome icons  -->
         </div>
 
+        <div class="songInfo">
+            <img src="images/gif.gif" alt="">
+            Tu Hai Kahan
+        </div>
+    
+    
     </div>
 
 
 
     <script src="script.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 
 </html>
